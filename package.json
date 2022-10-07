@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://oliviercos.github.io/FlorianKaroubi/",
+  "homepage": "https://oliviercos.github.io/FlorianKaroubi/",
   "name": "florian-karoubi",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "dotenv": "^16.0.2",
+    "gh-pages": "^4.0.0",
     "history": "^5.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
