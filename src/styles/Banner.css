@@ -1,0 +1,51 @@
+.banner {
+    text-align: center;
+    background-image: url(../assets/Banner_Image/Banner_image.jpg) ;
+    background-size: 10%;
+    background-repeat: repeat;
+    height: 15vh;
+}
+.banner_componants{
+
+    display: flex;
+    justify-content: space-around;
+    max-width: 1600px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.banner_componants2{
+    display: flex;
+    padding: 2rem 0;
+}
+.nav_options{
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.titre{
+    font-family: "Indie Flower", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+.padding-rubrique{
+    padding-right: 2rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.banner_componants3:hover{
+    transition: 500ms;
+    transform: scale(1.2);
+}
+

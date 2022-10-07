@@ -1,0 +1,22 @@
+.body_app{
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

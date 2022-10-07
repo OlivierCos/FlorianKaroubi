@@ -1,0 +1,27 @@
+@keyframes slidein {
+    from {
+     margin-left: -500%;
+     margin-top:-250%;
+     transform:rotate(0deg);
+     opacity: 0.2;
+    }
+
+    /* 25%, 75%{
+      margin-right: -300%;
+      margin-top:-100%;
+      margin-bottom:0;
+      transform:rotate(1440deg);
+      opacity: 0.7;
+    }
+   50%{
+        transform:rotate(0deg);
+        margin-left: 0%;
+    } */
+  
+    to {
+      margin-left: 0%;
+      transform:rotate(720deg);
+      opacity: 0.5;
+    }
+  }
+ 
