@@ -1,5 +1,4 @@
 import '../styles/Galerie.css';
-// import images from '../assets/Galerie_Image'; 
 import imgGalerie1 from '../assets/Galerie_Image/IMG-20220505-WA0023.jpg'
 import imgGalerie2 from '../assets/Galerie_Image/IMG-20220505-WA0039.jpg'
 import imgGalerie3 from '../assets/Galerie_Image/IMG-20220505-WA0015.jpg'
@@ -25,16 +24,10 @@ import imgGalerie22 from '../assets/Galerie_Image/2009_Gala_Bures.jpg'
 import imgGalerie23 from '../assets/Galerie_Image/2009_Bal_Ris.jpg'
 import imgGalerie24 from '../assets/Galerie_Image/2000.JPG'
 
+// const reqImg = require.context ( '../assets/Galerie_Image/', true, /\.(png|jpg|JPG|)$/ )
 
 
 function Galerie() {
-//Checker images p5 pour les faires venir automatiquement d'un dossier du backend
-window.onload = function() {
-    if(!window.location.hash) {
-        window.location = window.location + '#loaded';
-        window.location.reload();
-    }
-}
 
     return (
 <div class="fotorama"  data-nav="thumbs" data-allowfullscreen="true"  data-height="550" data-maxwidth="100%" data-ratio="4/3"  >
@@ -64,5 +57,6 @@ window.onload = function() {
     <img src={imgGalerie24} alt='' className='img_Galerie' />
 </div>        )       
 }
+
 
 export default Galerie;
